@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../Img/LOGO.jpg" type="/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Mercadito Compra</title>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html"><img src="../Img/LOGO.jpg" width="100" height="100" alt="Logo de la Empresa"></a>
+        <h1 class="titulopagina">Compras</h1>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active barranav" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link barranav" href="../pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link barranav" href="../pages/cuenta.html">Crear cuenta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link barranav" href="../pages/Ayuda.html">Ayuda</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="datos grid-datos">
+        <h4>Dirección de envío</h4>
+        <div class="grid-datos-compra1">
+            <label for="correoelec">Correo Eléctronico:</label>
+            <input type="email" name="correoelec" id="correoelec">
+        </div>
+
+        <div class="grid-datos-compra2">
+            <label for="provincia">Provincia:</label>
+            <select name="mes" id="mes">
+                <option value="01">Buenos Aires</option>
+                <option value="02">CABA</option>
+                <option value="02">Catamarca</option>
+                <option value="04">Chaco</option>
+                <option value="05">Chubut</option>
+                <option value="06">Córdoba</option>
+                <option value="07">Corrientes</option>
+                <option value="08">Entre Ríos</option>
+                <option value="09">Formosa</option>
+                <option value="10">Jujuy</option>
+                <option value="11">La Pampa</option>
+                <option value="12">La Rioja</option>
+                <option value="13">Mendoza</option>
+                <option value="14">Misiones</option>
+                <option value="15">Neuquén</option>
+                <option value="16">Río Negro</option>
+                <option value="17">Salta</option>
+                <option value="18">San Juan</option>
+                <option value="19">San Luis</option>
+                <option value="20">Santa Cruz</option>
+                <option value="21">Santa Fe</option>
+                <option value="22">Santiago del Estero</option>
+                <option value="23">Tierra del Fuego</option>
+                <option value="24">Tucumán</option>
+            </select>
+        </div>
+        <div class="grid-datos-compra3">
+            <label for="barrio">Barrio:</label>
+            <input type="text" name="barrio" id="barrio">
+        </div>
+        <div class="grid-datos-compra4">
+            <label for="calle">Calle y altura:</label>
+            <input type="text" name="calle" id="calle">
+        </div>
+    </section>
+
+    <section class="datos grid-datos">
+        <h4>Forma de pago</h4>
+        <div class="grid-datos-compra5">
+
+            <li><label for="mercpago">Mercado Pago</label>
+                <input type="radio" name="Forma de pago" id="mercpago">
+            </li>
+            <li><label for="american">American Express</label>
+                <input type="radio" name="Forma de pago" id="american">
+            </li>
+            <li><label for="visa">Visa</label>
+                <input type="radio" name="Forma de pago" id="visa">
+            </li>
+            <li><label for="mastercard">Mastercard</label>
+                <input type="radio" name="Forma de pago" id="mastercard">
+            </li>
+        </div>
+    </section>
+    <section class="datos grid-datos">
+        <div class="grid-datos-compra6">
+            <label for="nrotarj">Nro de Tarjeta:</label>
+            <input type="number" name="nrotaj" id="nrotarj" maxlength="16">
+        </div>
+        <div class="grid-datos-compra7">
+            <label for="nombtitular">Nombre del titular:</label>
+            <input type="text" name="nombtitular" id="nombtitular">
+        </div>
+        <div class="grid-datos-compra8">
+            <label for="fechavenc">Fecha de vencimiento:</label>
+            <div>
+                <select name="mes" id="mes">
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="02">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                <select name="año" id="año">
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                    <option value="32">32</option>
+                </select>
+            </div>
+        </div>
+        <div class="grid-datos-compra9">
+            <label for="codseg">Código de seguridad:</label>
+            <input type="password" name="codseg" id="codseg" maxlength="3">
+        </div>
+        <div class="grid-datos-compra10">
+            <label for="recaptcha">No soy un robot</label>
+            <input type="radio" name="recaptcha" id="recaptcha">
+        </div>
+    </section>
+
+    <footer>
+        <div class="grid-container">
+            <div class="grid-item primeritem">
+                <a href="https://www.facebook.com/" target="_blank"><img src="../Img/facebook.png" width="50"
+                        height="50" alt="Imagen de facebook"></a>
+                <h3>Facebook</h3>
+            </div>
+            <div class="grid-item segundoitem">
+                <a href="https://www.instagram.com/" target="_blank"><img src="../Img/instagram.png" width="50"
+                        height="50" alt="Imagen de Instagram"></a>
+                <h3>Instagram</h3>
+            </div>
+            <div class="grid-item terceritem">
+                <a href="https://twitter.com/home" target="_blank"><img src="../Img/twitter.png" width="50" height="50"
+                        alt="Imagen de Twitter"></a>
+                <h3>Twitter</h3>
+            </div>
+            <div class="grid-item cuartoitem">
+                <a href="../index.html"><img src="../Img/LOGO.jpg" width="100" height="100"
+                        alt="Logo de la Empresa"></a>
+            </div>
+            <div class="grid-item quintoitem">
+                <p>Copyright © 2023 Mercadito de Tecnología-Todos los derechos reservados.</p>
+            </div>
+            <div class="grid-item sextoitem">
+                <h3>Atención al cliente: </h3>
+                <p>0880-585-71264</p>
+                <p>consultas@Mercaditotec.com.ar</p>
+                <p>WhatsApp +54 351 5667-04174</p>
+            </div>
+            <div class="grid-item septimoitem">
+                <h3>Trabajá con nosotros!</h3>
+                <p>Envianos tu currículum a: </p>
+                <p>vacantes@Mercaditotec.com.ar</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

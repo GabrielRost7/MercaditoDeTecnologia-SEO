@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./Img/LOGO.jpg" type="/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Mercadito de Tecnología</title>
+</head>
+
+<body>
+    <header>
+        <!--Logo-->
+        <a href="index.html"><img class="logoheader" src="./Img/LOGO.jpg" width="100" height="100"
+                alt="Logo de la Empresa"></a>
+        <h1 class="titulopagina">MERCADITO DE TECNOLOGIA</h1>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active barranav" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link barranav" href="./pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link barranav" href="./pages/cuenta.html">Crear cuenta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link barranav" href="./pages/Ayuda.html">Ayuda</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+
+    <main>
+        <!--Novedades-->
+        <section class="hero">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="./pages/productos.html#Notebooks">
+                            <img src="./Img/Novedades-imagen0.jpg" class="d-block w-100" alt="novedades-notebook">
+                        </a>
+                    </div>
+                    <div class="carousel-item img-caro">
+                        <a href="./pages/productos.html#Monitores">
+                            <img src="./Img/Novedades-imagen1.jpg" class="d-block w-100" alt="novedades-monitor">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="./pages/productos.html#Celulares">
+                            <img src="./Img/Novedades-imagen2.jpg" class="d-block w-100" alt="novedades-celular">
+                        </a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </section>
+
+        <!--Productos-->
+        <section class="productos grid-producto-index">
+            <div class="grid-p33">
+                <h4>Samsung A33</h4>
+                <a href="./pages/Compra.html">
+                    <img src="./Img/celu-samsung-a33.jpg" alt="Samsung A33">
+                </a>
+                <p>Teléfono Celular 3gb RAM y 64gb de almacenamiento</p>
+                <a class="productoboton" href="./pages/Compra.html">COMPRAR</a>
+
+            </div>
+
+            <div class="grid-p34">
+                <h4>Smart TV Noblex 43"</h4>
+                <a href="./pages/Compra.html">
+                    <img src="./Img/smart-noblex-43.jpg" alt="Smart TV Noblex 43'">
+                </a>
+                <p>Televisor Smart TV marca Noblex, pantalla de 43 pulgadas</p>
+                <a class="productoboton" href="./pages/Compra.html">COMPRAR</a>
+
+            </div>
+
+            <div class="grid-p35">
+                <h4>Monitor Acer 24"</h4>
+                <a href="./pages/Compra.html">
+                    <img src="./Img/Monitor-Acer-24.jpg" alt="Monitor Acer">
+                </a>
+                <p>Monitor marca Acer con una pantalla de 24 pulgadas</p>
+                <a class="productoboton" href="./pages/Compra.html">COMPRAR</a>
+
+            </div>
+
+            <div class="grid-p36">
+                <h4>Notebook Asus Zenbook</h4>
+                <a href="./pages/Compra.html">
+                    <img src="./Img/Notebook-asus-zenbook.jpg" alt="Notebook Asus Zenbook">
+                </a>
+                <p>Notebook marca Asus con 16gb RAM y 2TB de almacenamiento</p>
+                <a class="productoboton" href="./Compra.html">COMPRAR</a>
+
+            </div>
+
+            <div class="grid-p37">
+                <h4>Monitor Apple 24"</h4>
+                <a href="./pages/Compra.html">
+                    <img src="./Img/monitor-apple-24.jpg" alt="Monitor Apple">
+                </a>
+                <p>Monitor marca Apple con una pantalla de 24 pulgadas</p>
+                <a class="productoboton" href="./Compra.html">COMPRAR</a>
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+    </main>
+    <!--Redes sociales y derechos-->
+    <footer>
+        <div class="grid-container">
+            <div class="grid-item primeritem">
+                <a href="https://www.facebook.com/" target="_blank"><img src="./Img/facebook.png" width="50" height="50"
+                        alt="Imagen de facebook"></a>
+                <h3>Facebook</h3>
+            </div>
+            <div class="grid-item segundoitem">
+                <a href="https://www.instagram.com/" target="_blank"><img src="./Img/instagram.png" width="50"
+                        height="50" alt="Imagen de Instagram"></a>
+                <h3>Instagram</h3>
+            </div>
+            <div class="grid-item terceritem">
+                <a href="https://twitter.com/home" target="_blank"><img src="./Img/twitter.png" width="50" height="50"
+                        alt="Imagen de Twitter"></a>
+                <h3>Twitter</h3>
+            </div>
+
+            <div class="grid-item cuartoitem">
+                <a href="index.html"><img src="./Img/LOGO.jpg" width="100" height="100" alt="logo de la Empresa"></a>
+            </div>
+            <div class="grid-item quintoitem">
+                <p>Copyright © 2023 Mercadito de Tecnología-Todos los derechos reservados.</p>
+            </div>
+
+            <div class="grid-item sextoitem">
+                <h3>Atención al cliente: </h3>
+                <p>0880-585-71264</p>
+                <p>consultas@Mercaditotec.com.ar</p>
+                <p>WhatsApp +54 351 5667-04174</p>
+            </div>
+            <div class="grid-item septimoitem">
+                <h3>Trabajá con nosotros!</h3>
+                <p>Envianos tu currículum a: </p>
+                <p>vacantes@Mercaditotec.com.ar</p>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,1385 @@
+/*!--------------------------------RESET------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*!-------------------------------HEADER--------------------------*/
+/*?-----HEADER FONDO Y TITULO----*/
+.titulopagina {
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+    color: whitesmoke;
+}
+
+header {
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+}
+
+/*?----BARRA DE NAVEGACIÓN----------------------*/
+.barranav{
+    font-size: large !important;
+    font-weight: 600 !important;
+}
+header nav{
+    background-color: rgb(204, 203, 203);
+}
+
+header nav ul li {
+    margin: 15px 15px 10px 10px
+}
+
+/*!---------------------------MAIN------------------------*/
+/*?-------INDEX, NOVEDADES--------------------------*/
+.hero {
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+
+/*?------PAGINA AYUDA-METODO PAGO, ENVÍO Y GARANTÍA---------------------*/
+.garantiass {
+    font-size: 20px;
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+
+    background-image: url(../Img/fondo-garantia.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 50%;
+}
+
+.garantiass h3 {
+    padding: 10% 0 0 0;
+}
+
+.garantiass div p {
+    padding: 20px 25% 10px 25%;
+}
+
+.metodopago {
+    font-size: 20px;
+    width: 100%;
+    height: 75vh;
+    text-align: center;
+    background-image: url(../Img/metodo-pago.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.metodopago h3 {
+    padding: 10% 0 0 0;
+}
+
+.metodopago div p {
+    padding: 40px 25% 10px 20%;
+}
+
+.envio {
+    font-size: 20px;
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    background-image: url(../Img/Fondo-envios.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.envio h3 {
+    padding: 2% 0 0 0;
+}
+
+.envio div p {
+    padding: 20px 25% 10px 10%;
+}
+
+/*?-----DATOS-PAGINA COMPRA Y CUENTA--------------------*/
+.datos {
+    padding: 25px 30% 25px 30%;
+    text-align: center;
+
+}
+
+.datos h4 {
+    margin: 2% 20% 2% 20%;
+    height: 40px;
+    font-size: 23px;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    align-items: center;
+}
+
+.datos div {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.datos form div label {
+    flex: 1;
+    text-align: left;
+    font-size: 20px;
+}
+
+.datos input {
+    flex: 0;
+    align-items: center;
+}
+
+.datos li {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+/*?----BOTÓN SIGUIENTE (PAGINA DE CUENTA)---*/
+.siguiente {
+    text-align: right;
+    margin: 20px;
+}
+
+.siguiente a {
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    padding: 5px;
+    display: inline-flex;
+    background-color: rgb(37, 37, 37);
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+/*!----------------------------BODY-----------------------------------*/
+
+
+/*?--------------------TARJETA DE PRODUCTO----------------------*/
+.productos h3 {
+    text-align: center;
+    padding: 25px;
+}
+
+.productos h4 {
+    padding: 5px 0 0 0;
+    font-size: medium;
+    color: white;
+    background-color: rgb(49, 201, 35);
+    height: 42px;
+    margin: 0;
+    text-align: center;
+}
+
+.productos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.productos div {
+    width: 167px;
+    height: 311px;
+    border: 1px solid black;
+    margin: 20px;
+    background-color: rgb(204, 203, 203);
+}
+
+.productos div a {
+    padding: 1px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.productos p {
+    text-align: center;
+    height: 60px;
+}
+
+.productos div img {
+    width: 164px;
+    height: 165px;
+}
+
+.productoboton {
+    display: flex;
+    justify-content: center;
+    margin: 5px 5px 5px 50px;
+}
+
+/*?----SCROLL EN PAGINA DE PRODUCTOS Y AYUDA--------------------*/
+.puntito {
+    text-align: center;
+    padding: 30px;
+}
+
+.puntito div ul li {
+    list-style: circle;
+    display: inline-block;
+}
+
+.puntito div ul li a {
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+    margin: 10px 15px 10px 10px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 15px;
+}
+
+.puntito div h2 {
+    margin-bottom: 20px;
+}
+
+/*?----CELULARES-TELEVISORES-MONITORES-NOTEBOOKS-SEPARADORES---*/
+.tituloproducto {
+    padding: 10px;
+    margin: 10px 80% 10px 0px;
+    color: white;
+    font-size: 27px;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    justify-content: center;
+    border-radius: 0px 25px 25px 0px;
+}
+
+/*!---------------------------FOOTER---------------------------------------*/
+footer {
+    color: white;
+    background-color: rgb(37, 37, 37);
+    text-align: left;
+}
+
+/*?-----------GRID-FLEX EN LOS FOOTER DE TODAS LAS PAG--------*/
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(3, 135px);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-item h3 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+/**----FOOTER FACEBOOK---*/
+.primeritem {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-items: center;
+}
+
+/**----FOOTER INSTAGRAM---*/
+.segundoitem {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    align-items: center;
+}
+
+/**----FOOTER TWITTER---*/
+.terceritem {
+    place-items: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-items: center;
+
+}
+
+/**----FOOTER LOGO---*/
+.cuartoitem {
+    grid-column-start: 3;
+    grid-row-start: 3;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+/**----FOOTER COPYRIGHT---*/
+.quintoitem {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    font-size: small;
+    align-items: flex-end;
+}
+
+/**----FOOTER AYUDA---*/
+.sextoitem {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: justify;
+    padding: 25px 0px 0 249px;
+    display: inline-block;
+    font-size: large;
+}
+
+.sextoitem h3 {
+    color: rgb(49, 201, 35);
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.sextoitem p {
+    margin: 10px;
+}
+
+/**----FOOTER VACANTES---*/
+.septimoitem {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: justify;
+    padding: 25px 0 249px 0;
+    display: inline-block;
+    font-size: large;
+}
+
+.septimoitem h3 {
+    color: rgb(49, 201, 35);
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.septimoitem p {
+    margin: 10px;
+}
+
+/*!--------------MEDIA QUERIES (TABLET)-------------------------------------------------------------------------*/
+@media screen and (max-width:1440px) {
+
+    /**----HERO SECTION---*/
+    .hero {
+        width: 100%;
+    }
+
+    .hero h2 {
+        font-size: large;
+        padding: 15px;
+        margin: 5% 20% 5% 20%;
+    }
+
+    .hero img {
+        width: 80% ;
+        height: 50% ;
+    }
+
+    /*?----PRODUCTOS(INDEX, PAG PRODUCTOS)--------------------*/
+    /**---------PAGINA AYUDA(RESPONSIVE)---*/
+    .garantiass {
+        height: 110vh;
+    }
+
+    .metodopago {
+        height: 700px;
+    }
+
+    .envio {
+        height: 60vh;
+    }
+
+    /**---PRODUCTOS INDEX---*/
+    .grid-producto-index {
+        display: grid;
+        grid-template-rows: repeat(2, 310px);
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0 0 30px 0;
+        place-items: center;
+    }
+
+    .grid-p33 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .grid-p34 {
+
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .grid-p35 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
+    .grid-p36 {
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+
+    }
+
+    .grid-p37 {
+        grid-row-start: 2;
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+
+    /**----PRODUCTOS----*/
+
+    .tituloproducto {
+        padding: 10px;
+        margin: 10px 70% 10px 0px;
+    }
+
+    .grid-producto {
+        display: grid;
+        grid-template-rows: repeat(3, 310px);
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 10px;
+        padding: 0 2.5% 2.5% 2.5%;
+        place-items: center;
+    }
+
+    /*GRIDS 1-8 CELULARES---9-16 TELEVISORES*/
+    /*GRIDS 17-24 NOTEBOOKS----25-32 MONITORES*/
+    /*GRIDS 33-37 PRODUCTOS INDEX*/
+    /*?----FOOTER RESPONSIVE-------------------------*/
+    /**---FOOTER----*/
+    .grid-container {
+        grid-template-rows: repeat(4, 100px);
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 10px;
+    }
+
+    .grid-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    /**---PALABRAS(IG/FB/TW)---*/
+    .grid-item h3 {
+        font-size: 15px;
+        margin: 5px;
+    }
+
+    /**----FOOTER FACEBOOK---*/
+    .primeritem {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        justify-content: left;
+    }
+
+    /**----FOOTER INSTAGRAM---*/
+    .segundoitem {
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        justify-content: left;
+    }
+
+    /**----FOOTER TWITTER---*/
+    .terceritem {
+        place-items: center;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        justify-content: left;
+
+    }
+
+    /**----FOOTER LOGO---*/
+    .cuartoitem {
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        justify-content: flex-end;
+        align-items: end;
+    }
+
+    /**----FOOTER COPYRIGHT---*/
+    .quintoitem {
+        grid-row-start: 4;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        font-size: 10px;
+        justify-content: center;
+        text-align: right;
+        align-items: center;
+        padding: 0;
+    }
+
+    /**----FOOTER AYUDA---*/
+    .sextoitem {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        text-align: justify;
+        padding: 0;
+        display: inline-block;
+        align-items: end;
+        font-size: medium;
+    }
+
+    /**----FOOTER VACANTES---*/
+    .septimoitem {
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        text-align: justify;
+        align-content: end;
+        padding: 0;
+        display: inline-block;
+        font-size: medium;
+    }
+
+    /**----RESPONSIVE (COMPRAS-CREAR CUENTA)----*/
+    .grid-datos {
+        display: grid;
+        grid-template-rows: repeat(8, 40px);
+        grid-template-columns: repeat(4, 1fr);
+        padding: 0;
+    }
+
+    .grid-datos h4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 30% 0px 30%;
+        height: 40px;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+    }
+
+    /*---GRID PARA PAGINA CUENTA----*/
+    .grid-datos-cuenta1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        align-items: center;
+
+    }
+
+    .grid-datos-cuenta1 div {
+        display: flex;
+        margin: 5px;
+        justify-content: center;
+
+    }
+
+    .grid-datos-cuenta1 div label {
+        flex: 1;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .grid-datos-cuenta1 div input {
+        flex: 0;
+        align-items: center;
+    }
+
+    .grid-datos-cuenta2 {
+
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 6;
+
+    }
+
+    .grid-datos-cuenta2 li {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /*GRID PARA PAGINA COMPRA*/
+    .grid-datos-compra1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        align-items: center;
+    }
+
+    .grid-datos-compra1 div {
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .grid-datos-compra1 div label {
+        flex: 1;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .grid-datos-compra1 div input {
+        flex: 0;
+        align-items: center;
+    }
+
+    .grid-datos-compra2 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        align-items: center;
+    }
+
+    .grid-datos-compra2 div {
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .grid-datos-compra2 div label {
+        flex: 1;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .grid-datos-compra2 div input {
+        flex: 0;
+        align-items: center;
+    }
+
+    .grid-datos-compra3 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 6;
+        align-items: center;
+    }
+
+    .grid-datos-compra3 div {
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .grid-datos-compra3 div label {
+        flex: 1;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .grid-datos-compra3 div input {
+        flex: 0;
+        align-items: center;
+    }
+
+    .grid-datos-compra4 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 7;
+        align-items: center;
+    }
+
+    .grid-datos-compra4 div {
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .grid-datos-compra4 div label {
+        flex: 1;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .grid-datos-compra4 div input {
+        flex: 0;
+        align-items: center;
+    }
+
+    .grid-datos-compra5 {
+        grid-template-rows: 5 (40px);
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        align-items: center;
+    }
+
+    .grid-datos-compra5 div {
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+
+    .grid-datos-compra5 div label {
+        flex: 1;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .grid-datos-compra5 div input {
+        flex: 0;
+        align-items: center;
+    }
+
+    .grid-datos-compra6 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        align-items: center;
+    }
+
+    .grid-datos-compra6 div {
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .grid-datos-compra6 div label {
+        flex: 1;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .grid-datos-compra6 div input {
+        flex: 0;
+        align-items: center;
+    }
+
+    .grid-datos-compra7 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        align-items: center;
+    }
+
+    .grid-datos-compra7 div {
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .grid-datos-compra7 div label {
+        flex: 1;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .grid-datos-compra7 div input {
+        flex: 0;
+        align-items: center;
+    }
+
+    .grid-datos-compra8 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        align-items: center;
+    }
+
+    .grid-datos-compra8 div {
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .grid-datos-compra8 div label {
+        flex: 1;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .grid-datos-compra8 div input {
+        flex: 0;
+        align-items: center;
+    }
+
+    .grid-datos-compra9 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        align-items: center;
+    }
+
+    .grid-datos-compra9 div {
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .grid-datos-compra9 div label {
+        flex: 1;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .grid-datos-compra9 div input {
+        flex: 0;
+        align-items: center;
+    }
+
+    .grid-datos-compra10 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        align-items: center;
+    }
+
+    .grid-datos-compra10 div {
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .grid-datos-compra10 div label {
+        flex: 1;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .grid-datos-compra10 div input {
+        flex: 0;
+        align-items: center;
+    }
+}
+
+/*!----------MEDIA QUERIES PARA CELULAR-----------------------------------------------------------------------------*/
+@media screen and (max-width:638px) {
+
+    /**----HEADER-----*/
+    .logoheader {
+        width: 75px;
+        height: 75px;
+    }
+
+    .titulopagina {
+        font-size: 30px;
+    }
+
+    /**----HERO SECTION---*/
+    .hero {
+        display: none;
+    }
+
+    /*?----PRODUCTOS(INDEX, PAG PRODUCTOS)-------------------*/
+    /**---PRODUCTOS INDEX-------------*/
+    .grid-producto-index {
+        display: grid;
+        grid-template-rows: repeat(2, 330px);
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px 0 0px 0;
+        place-items: center;
+    }
+
+    .grid-p33 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .grid-p34 {
+
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+
+    .grid-p35 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+    }
+
+    .grid-p36 {
+        grid-row-start: 2;
+        grid-column-start: 2;
+        grid-column-end: 2;
+
+    }
+
+    .grid-p37 {
+        display: none;
+    }
+
+    /**---------PAGINA AYUDA(RESPONSIVE)---*/
+    .garantiass {
+        height: 1700px;
+    }
+
+    .metodopago {
+        height: 700px;
+    }
+
+    .envio {
+        height: 500px;
+    }
+
+    /**----PUNTITO(SCROLL EN PRODUCTOS Y AYUDA)----*/
+    .grid-puntito {
+        display: grid;
+        grid-template-rows: repeat(2, 40px);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*?--PUNTITO PERO EN PRODUCTOS--*/
+    .grid-puntito-p1 {
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .grid-puntito-p2 {
+        grid-row-start: 1;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .grid-puntito-p3 {
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .grid-puntito-p4 {
+        grid-row-start: 2;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    /*?--PUNTITO PERO EN AYUDA--*/
+    .grid-puntito-a1 {
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .grid-puntito-a2 {
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .grid-puntito-a3 {
+        grid-row-start: 1;
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+
+    /**--------------PRODUCTOS-------------*/
+    .tituloproducto {
+        padding: 10px;
+        margin: 10px 60% 10px 0px;
+    }
+
+    .grid-producto {
+        display: grid;
+        grid-template-rows: repeat(4, 310px);
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 10px;
+        padding: 0 5% 10% 5%;
+    }
+
+    /*?----FOOTER RESPONSIVE------------------------------------------*/
+    /**---FOOTER----*/
+    .grid-container {
+        grid-template-rows: repeat(3, 100px);
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 10px;
+    }
+
+    .grid-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    /**---PALABRAS(IG/FB/TW)---*/
+    .grid-item h3 {
+        font-size: 13px;
+        margin: 5px;
+    }
+
+    /**----FOOTER FACEBOOK---*/
+    .primeritem {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-column-end: 1;
+        justify-content: right;
+    }
+
+    /**----FOOTER INSTAGRAM---*/
+    .segundoitem {
+        grid-row-start: 1;
+        grid-column-start: 4;
+        grid-column-end: 4;
+        justify-content: left;
+    }
+
+    /**----FOOTER TWITTER---*/
+    .terceritem {
+        padding: 0 0 30px 0;
+        justify-content: center;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+    }
+
+    /**----FOOTER LOGO---*/
+    .cuartoitem {
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        justify-content: flex-end;
+        align-items: end;
+    }
+
+    /**----FOOTER COPYRIGHT---*/
+    .quintoitem {
+        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        font-size: 10px;
+        justify-content: center;
+        text-align: right;
+        align-items: end;
+        padding: 0;
+    }
+
+    /**----FOOTER AYUDA---*/
+    .sextoitem {
+        display: none;
+    }
+
+    /**----FOOTER VACANTES---*/
+    .septimoitem {
+        display: none;
+    }
+
+    /**----RESPONSIVE (COMPRAS-CREAR CUENTA)----*/
+    .grid-datos {
+        display: grid;
+        grid-template-rows: repeat(8, 40px);
+        grid-template-columns: repeat(4, 1fr);
+        padding: 0;
+    }
+
+    .grid-datos h4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 20% 0px 20%;
+        height: 40px;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+    }
+
+    /*---GRID PARA PAGINA CUENTA----*/
+    .grid-datos-cuenta1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        align-items: center;
+
+    }
+
+    .grid-datos-cuenta1 div {
+        display: flex;
+        margin: 5px;
+        justify-content: center;
+
+    }
+
+    .grid-datos-cuenta1 div label {
+        flex: 1;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .grid-datos-cuenta1 div input {
+        flex: 0;
+        align-items: center;
+    }
+
+    .grid-datos-cuenta2 {
+
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 6;
+
+    }
+
+    .grid-datos-cuenta2 li {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /*---------GRID PARA PAGINA COMPRA--------*/
+    .grid-datos-compra1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        align-items: center;
+    }
+
+    .grid-datos-compra1 div {
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .grid-datos-compra1 div label {
+        flex: 1;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .grid-datos-compra1 div input {
+        flex: 0;
+        align-items: center;
+    }
+
+    .grid-datos-compra2 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        align-items: center;
+    }
+
+    .grid-datos-compra2 div {
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .grid-datos-compra2 div label {
+        flex: 1;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .grid-datos-compra2 div input {
+        flex: 0;
+        align-items: center;
+    }
+
+    .grid-datos-compra3 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 6;
+        align-items: center;
+    }
+
+    .grid-datos-compra3 div {
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .grid-datos-compra3 div label {
+        flex: 1;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .grid-datos-compra3 div input {
+        flex: 0;
+        align-items: center;
+    }
+
+    .grid-datos-compra4 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 7;
+        align-items: center;
+    }
+
+    .grid-datos-compra4 div {
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .grid-datos-compra4 div label {
+        flex: 1;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .grid-datos-compra4 div input {
+        flex: 0;
+        align-items: center;
+    }
+
+    .grid-datos-compra5 {
+        grid-template-rows: 5 (40px);
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        align-items: center;
+    }
+
+    .grid-datos-compra5 div {
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+
+    .grid-datos-compra5 div label {
+        flex: 1;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .grid-datos-compra5 div input {
+        flex: 0;
+        align-items: center;
+    }
+
+    .grid-datos-compra6 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        align-items: center;
+    }
+
+    .grid-datos-compra6 div {
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .grid-datos-compra6 div label {
+        flex: 1;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .grid-datos-compra6 div input {
+        flex: 0;
+        align-items: center;
+    }
+
+    .grid-datos-compra7 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        align-items: center;
+    }
+
+    .grid-datos-compra7 div {
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .grid-datos-compra7 div label {
+        flex: 1;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .grid-datos-compra7 div input {
+        flex: 0;
+        align-items: center;
+    }
+
+    .grid-datos-compra8 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        align-items: center;
+    }
+
+    .grid-datos-compra8 div {
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .grid-datos-compra8 div label {
+        flex: 1;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .grid-datos-compra8 div input {
+        flex: 0;
+        align-items: center;
+    }
+
+    .grid-datos-compra9 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        align-items: center;
+    }
+
+    .grid-datos-compra9 div {
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .grid-datos-compra9 div label {
+        flex: 1;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .grid-datos-compra9 div input {
+        flex: 0;
+        align-items: center;
+    }
+
+    .grid-datos-compra10 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        align-items: center;
+    }
+
+    .grid-datos-compra10 div {
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .grid-datos-compra10 div label {
+        flex: 1;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .grid-datos-compra10 div input {
+        flex: 0;
+        align-items: center;
+    }
+}

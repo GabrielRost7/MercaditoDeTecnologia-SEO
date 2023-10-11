@@ -1,0 +1,18 @@
+header {
+  background-color: #252525;
+  width: 100%; }
+  header .logoheader {
+    width: 100px;
+    height: 100px; }
+  header .titulopagina {
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+    color: whitesmoke; }
+  header .barranav {
+    font-size: large !important;
+    font-weight: 600 !important; }
+  header header nav {
+    background-color: #cccbcb; }
+  header header nav ul li {
+    margin: 15px 15px 10px 10px; }

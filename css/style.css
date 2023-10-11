@@ -59,7 +59,7 @@ header nav ul li {
     background-position-y: 50%;
 }
 
-.garantiass h3 {
+.garantiass div h3 {
     padding: 10% 0 0 0;
 }
 
@@ -77,7 +77,7 @@ header nav ul li {
     background-position: center;
 }
 
-.metodopago h3 {
+.metodopago div h3 {
     padding: 10% 0 0 0;
 }
 
@@ -95,7 +95,7 @@ header nav ul li {
     background-position: center;
 }
 
-.envio h3 {
+.envio div h3 {
     padding: 2% 0 0 0;
 }
 
@@ -135,12 +135,12 @@ header nav ul li {
     font-size: 20px;
 }
 
-.datos input {
+.datos form div input {
     flex: 0;
     align-items: center;
 }
 
-.datos li {
+.datos div li {
     display: flex;
     justify-content: center;
     text-align: left;
@@ -167,10 +167,7 @@ header nav ul li {
 
 
 /*?--------------------TARJETA DE PRODUCTO----------------------*/
-.productos h3 {
-    text-align: center;
-    padding: 25px;
-}
+
 
 .productos h4 {
     padding: 5px 0 0 0;
@@ -204,7 +201,7 @@ header nav ul li {
     text-decoration: none;
 }
 
-.productos p {
+.productos div p {
     text-align: center;
     height: 60px;
 }
@@ -316,7 +313,7 @@ footer {
     grid-column-start: 4;
     grid-row-start: 4;
     justify-content: flex-end;
-    align-items: end;
+    align-items: end;    
 }
 
 /**----FOOTER COPYRIGHT---*/
@@ -690,12 +687,7 @@ footer {
         align-items: center;
     }
 
-    .grid-datos-compra4 div {
-        margin: 5px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+   
 
     .grid-datos-compra4 div label {
         flex: 1;

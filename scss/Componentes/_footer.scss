@@ -1,0 +1,95 @@
+footer{
+    color: white;
+    background-color: rgb(37, 37, 37);
+    text-align: left;
+    .grid-container {
+        display: grid;
+        grid-template-rows: repeat(3, 135px);
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 10px;
+        .grid-item {
+            display: flex;
+            justify-content: center;
+            h3 {
+                font-size: 20px;
+                margin: 5px;
+            }
+        }
+        .primeritem {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            align-items: center;
+        }
+        .segundoitem {
+            grid-column-start: 4;
+            grid-column-end: 4;
+            align-items: center;
+            justify-items: left;
+        }
+        .terceritem {
+            place-items: center;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            display: flex;
+            justify-content: center;
+            align-items: center;        
+        }
+        .cuartoitem {
+            grid-column-start: 4;
+            grid-row-start: 4;
+            justify-content: flex-end;
+            align-items: end;
+            a{
+                img{
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+        }
+        .quintoitem {
+            grid-row-start: 4;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            font-size: small;
+            align-items: flex-end;
+        }
+        .sextoitem {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            text-align: justify;
+            padding: 25px 0px 0 249px;
+            display: inline-block;
+            font-size: large;
+            h3 {
+                color: rgb(49, 201, 35);
+                margin: 10px;
+                text-decoration: underline;
+            }
+            p{
+                margin: 10px;
+            }
+        }
+        .septimoitem {
+            grid-column-start: 4;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            text-align: justify;
+            padding: 25px 0 249px 0;
+            display: inline-block;
+            font-size: large;
+            h3{
+                color: rgb(49, 201, 35);
+                margin: 10px;
+                text-decoration: underline;
+            }
+            p{
+                margin: 10px;
+            }
+        }
+    }
+}

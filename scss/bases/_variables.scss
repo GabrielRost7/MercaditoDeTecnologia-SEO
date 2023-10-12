@@ -1,0 +1,14 @@
+$color-principal:rgb(37, 37, 37);
+$color-letra-titulo: rgb(245, 245, 245);
+
+//!EXTENDS
+%Flex-aliC-justC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}

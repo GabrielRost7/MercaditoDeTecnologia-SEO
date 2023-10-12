@@ -14,11 +14,19 @@ footer{
                 font-size: 20px;
                 margin: 5px;
             }
+            a{               
+                img {
+                    transition: 2s;
+                    &:hover{
+                        transform: rotateZ(360deg);
+                    }
+                }
+            }
         }
         .primeritem {
             grid-column-start: 1;
             grid-column-end: 2;
-            align-items: center;
+            align-items: center;            
         }
         .segundoitem {
             grid-column-start: 4;
@@ -32,9 +40,7 @@ footer{
             grid-column-end: 4;
             grid-row-start: 1;
             grid-row-end: 3;
-            display: flex;
-            justify-content: center;
-            align-items: center;        
+            @include flex (flex, center, center);;        
         }
         .cuartoitem {
             grid-column-start: 4;

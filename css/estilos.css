@@ -81,9 +81,9 @@ header {
     font-size: 23px;
     color: white;
     background-color: #252525;
+    border-radius: 25px;
     display: flex;
     justify-content: center;
-    border-radius: 25px;
     align-items: center; }
   .datos div {
     margin: 5px;
@@ -114,19 +114,28 @@ header {
     display: inline-flex;
     background-color: #252525;
     font-size: 20px;
-    border-radius: 15px; }
+    border-radius: 15px;
+    transition-duration: 2s; }
+    .siguiente a:hover {
+      background-color: #31c923; }
 
 /*-----TARJETA DE PRODUCTOS---------*/
 .productos {
   width: 100%;
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  transition: 2s; }
   .productos div {
     width: 167px;
     height: 312px;
     border: 1px solid black;
     margin: 20px;
     background-color: #cccbcb; }
+    .productos div:hover {
+      transform: scale(1.05);
+      box-shadow: 1px 1px 1px 1px #747474;
+      -webkit-box-shadow: 0px 0px 10px 10px #bdbdbd;
+      -moz-box-shadow: 3px 3px 3px 3px #e2e2e2; }
     .productos div h4 {
       padding: 5px 0 0 0;
       font-size: medium;
@@ -137,7 +146,6 @@ header {
       text-align: center; }
     .productos div a {
       padding: 1px;
-      background-color: #252525;
       border-radius: 10px;
       color: white;
       text-decoration: none; }
@@ -150,7 +158,8 @@ header {
     .productos div .productoboton {
       display: flex;
       justify-content: center;
-      margin: 0px 20px 0px 20px; }
+      margin: 0px 20px 0px 20px;
+      background-color: #252525; }
 
 /*--SCROLL PAG PRODUCTOS Y AYUDA----*/
 .puntito {
@@ -168,7 +177,10 @@ header {
       text-decoration: none;
       margin: 10px 15px 10px 10px;
       background-color: #252525;
-      border-radius: 15px; }
+      border-radius: 15px;
+      transition-duration: 2s; }
+      .puntito div ul li a:hover {
+        background-color: #31c923; }
 
 /*---SEPARADORES PAG PRODUCTOS (MON-CEL-TV-NOTEBOOK)--*/
 .tituloproducto {
@@ -196,6 +208,10 @@ footer {
       footer .grid-container .grid-item h3 {
         font-size: 20px;
         margin: 5px; }
+      footer .grid-container .grid-item a img {
+        transition: 2s; }
+        footer .grid-container .grid-item a img:hover {
+          transform: rotateZ(360deg); }
     footer .grid-container .primeritem {
       grid-column-start: 1;
       grid-column-end: 2;
